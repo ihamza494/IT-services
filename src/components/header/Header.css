@@ -1,0 +1,60 @@
+/* General Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 25px; /* Rounded corners */
+    position: fixed; /* Fixed on top */
+    top: 10px; /* Spacing from the top */
+    left: 50%; /* Center align horizontally */
+    transform: translateX(-50%); /* Adjust centering */
+    max-width: 1200px; /* Max width */
+    width: 90%; /* Responsive width */
+    z-index: 1000; /* Ensure it stays above other elements */
+  }
+  
+  /* Logo Styles */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #061c42;
+  }
+  
+  /* Menu Styles */
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Menu Links */
+  .menu a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #061c42;
+    transition: color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: #004aad; /* Optional hover color */
+  }
+  
+  /* Call Button */
+  .call-button {
+    background-color: #061c42;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .call-button:hover {
+    background-color: #004aad; /* Optional hover color */
+  }
+  

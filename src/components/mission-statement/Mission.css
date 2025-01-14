@@ -1,0 +1,102 @@
+/* .mission-main{
+    text-align: left;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 300px;
+}
+.top-text{
+    color: rgba(60, 55, 55, 0.6);
+    font-size: medium;
+    padding-bottom: 30px;
+}
+
+.statement-text{
+    padding-right: 300px;
+    font-size: large;
+    font-family: monospace;
+}
+
+.services-card{
+    padding-right: 220px;
+}
+
+.services-scroll-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    /* padding-right: 220px;
+  } */ */
+
+
+  .mission-main {
+    text-align: left;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 300px;
+  }
+  
+  .top-text {
+      color: rgba(60, 55, 55, 0.6);
+    font-size: medium;
+    padding-bottom: 30px;
+    padding-left: 180px;
+    padding-top: 50px;
+  }
+  
+  .statement-text {
+    padding-right: 300px;
+    font-size: large;
+    font-family: monospace;
+    padding-left: 180px;
+  }
+  
+  .services-card-container {
+    position: relative;
+  }
+  
+  .scroll-wrapper {
+    overflow: hidden; /* Hide overflow */
+    width: 100%; /* Full width */
+  }
+  
+  .services-scroll-container {
+    display: flex;
+    gap: 20px;
+    animation: scroll 30s linear infinite; /* Continuous scrolling */
+  }
+  
+  .services-card {
+    min-width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0; /* Prevent shrinking */
+    position: relative;
+  }
+  
+  .services-card-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0); /* Start at the first card */
+    }
+    to {
+      transform: translateX(-50%); /* Scroll halfway (duplicate array ensures seamless loop) */
+    }
+  }
+  
+  

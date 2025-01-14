@@ -1,0 +1,123 @@
+/* General Styling for Contact Page */
+.contact-us-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Cover Photo Section */
+  .cover-photo-contact {
+    position: relative;
+    height: 600px;
+    background-image: url('../../assets/cover-contact-us-main.jpeg'); /* Adjust path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-overlay {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    padding: 40px;
+    width: 80%;
+    height: 70%;
+  }
+  
+  /* Left Side Styling */
+  .contact-left {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .contact-left h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .contact-left p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-details i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Right Side Styling */
+  .contact-right {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-right h2 {
+    font-size: 1.8rem;
+    color: #061c42;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  textarea.form-input {
+    resize: none;
+  }
+  
+  .submit-button {
+    background-color: #061c42;
+    color: white;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #083366;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .contact-overlay {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .contact-left,
+    .contact-right {
+      width: 100%;
+      padding: 20px 0;
+    }
+  
+    .contact-right {
+      margin-top: 20px;
+    }
+  }
+  

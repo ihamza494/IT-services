@@ -1,0 +1,25 @@
+.service-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    width: 250px;
+    margin-right: 30px;
+    
+  }
+  
+  .service-card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-card-title {
+    font-size: 2rem;
+    margin-top: 200px;
+    
+  }
+  
+  .service-card-description {
+    font-size: 1rem;
+    margin-top: 0px;
+  }
+  

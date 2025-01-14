@@ -1,0 +1,33 @@
+
+
+.cover-photo-pricing {
+    position: relative;
+    height: 400px; /* Adjust height as needed */
+    background: linear-gradient(to right, rgba(38, 38, 65, 0.9), rgba(254, 254, 254, 0)), 
+                url('../../assets/cover-pricing-main-bg.jpeg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+  
+  .cover-content-pricing {
+    background: rgba(51, 50, 50, 0); /* Add a semi-transparent overlay */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .cover-content-pricing h1 {
+    font-size: 5rem;
+    margin: 0;
+    font-family: monospace;
+  }
+  
+  .cover-content-pricing p {
+    font-size: 1rem;
+    margin: 10px 0 20px;
+  }
