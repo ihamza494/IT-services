@@ -2,6 +2,7 @@ import React from 'react'
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import './Pricing.css'
+import PricingPlan from '../../components/pricing-plan/PricingPlan';
 
 const Pricing = () => {
   return (
@@ -13,6 +14,7 @@ const Pricing = () => {
           <p>We are Passionate about creating exceptional websites that drive results</p>
         </div>
       </div>
+      <PricingPlan/>
       <Footer/>
     </div>
   )

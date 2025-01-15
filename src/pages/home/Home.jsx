@@ -3,6 +3,7 @@ import "./Home.css";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import Mission from "../../components/mission-statement/Mission";
+import DesignProcess from "../../components/design-process/DesignProcess";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
         </div>
       </div>
       <Mission/>
+      <DesignProcess/>
       <Footer/>
     </div>
   );

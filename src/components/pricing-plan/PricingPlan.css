@@ -1,0 +1,141 @@
+.pricing-plan-container {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .pricing-header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .pricing-label {
+    display: inline-block;
+    background: linear-gradient(to right, #1b2d43, #4472a9);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .pricing-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  .pricing-header p {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .pricing-toggle {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  
+  
+  .toggle-button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid #1b2d43;
+    background: white;
+    color: #1b2d43;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-button.active {
+    background: linear-gradient(to right, #1b2d43, #4472a9);
+    color: white;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .pricing-card {
+    background: linear-gradient(to right, #1b2d43, #4472a9);
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0.8;
+    transform: scale(0.95);
+  }
+  
+  .pricing-card.active-card {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
+  .card-header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-header p {
+    margin-bottom: 1rem;
+  }
+  
+  .savings {
+    color: #ffd700;
+    font-weight: bold;
+  }
+  
+  .price {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    margin-right: 0.5rem;
+    color: #ccc;
+  }
+  
+  .current-price {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .card-content h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .card-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .check-icon {
+    color: #ffd700;
+    margin-right: 0.5rem;
+  }
+  
+  .get-started-button {
+    width: 100%;
+    background: white;
+    color: #1b2d43;
+    padding: 0.75rem 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .get-started-button:hover {
+    background: #f1f1f1;
+  }
+  
